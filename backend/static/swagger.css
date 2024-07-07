@@ -1,0 +1,3 @@
+.opblock-summary-patch .opblock-summary-method {
+    background-color: orangered !important;   /* Change color of PATCH method */
+}

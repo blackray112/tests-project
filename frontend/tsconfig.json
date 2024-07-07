@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "es5", "scripthost", "es2015"],
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "allowJs": true,
+    "baseUrl": "./",
+    "noEmit": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@apps/*": ["src/apps/*"],
+      "@design-system": ["src/design-system"],
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

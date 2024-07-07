@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nasalization';
+  src: url('./assets/fonts/Nasalization-Regular.otf') format('truetype');
+}
+
+* {
+  font-family: 'Nasalization', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --black: #000;
+  --main-blue: #5647fe;
+  --gradient-blue: linear-gradient(125deg, #5647FE 0%, #3DDCFF 100%);
+  --gradient-violet: linear-gradient(125deg, #5647FE 0%, #E88CFF 100%);
+
+  --duration-short: 0.2s;
+  --duration-middle: 0.5s;
+}
